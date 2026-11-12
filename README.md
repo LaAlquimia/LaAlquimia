@@ -37,32 +37,6 @@ Nuestras líneas maestras de trabajo son:
 
 ---
 
-## 🗺️ Mapa del Ecosistema
-
-```mermaid
-flowchart TD
-    subgraph Ecosistema["⚗️ Ecosistema La Alquimia"]
-        direction TB
-        
-        AI["🤖 Agentes Autónomos & Computer-Use<br/>• AIsistent (MCP RDP)<br/>• winremote-mcp<br/>• OmniParser & OCR macOS<br/>• AgentAutomation"]
-        
-        LOW["⚡ Sistemas & Bajo Nivel<br/>• xbe-metal (Recompilador ARM64/Metal)<br/>• Einstein-BlackBox (Genetic Prog C++)"]
-        
-        TRADE["📈 Trading Algorítmico & FinTech<br/>• La-Alquimia (Notebooks & Bots)<br/>• trader-chrome-extension<br/>• WebSockets de Baja Latencia<br/>• Bitunix / Binance Bots"]
-        
-        WEB3["⛓️ Web3 & DeFi (Semillero UdeA)<br/>• LiquidityPools (Uniswap v3)<br/>• ERC-20 & Slides Técnicos<br/>• Alqswap & Smart Contracts"]
-        
-        WEB["🌐 Web Interactiva & Demos<br/>• laalquimia.github.io (Liquid Glass)<br/>• chess-html (Stockfish AI + WebAudio)<br/>• UdeAyudas & Vibe Coding UdeA"]
-    end
-
-    AI --> TRADE
-    LOW --> AI
-    TRADE --> WEB3
-    WEB3 --> WEB
-```
-
----
-
 ## 🗂️ Directorio de Proyectos y Repositorios
 
 ### 1. 🤖 Agentes Autónomos, Computer-Use & Protocolo MCP
